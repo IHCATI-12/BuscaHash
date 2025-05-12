@@ -1,18 +1,23 @@
-## Getting Started
+📚 Projeto: Tabela Hash com Palavras Aleatórias (Java)
+Este projeto em Java simula uma tabela hash que armazena palavras aleatórias em categorias baseadas na letra inicial de cada palavra. A estrutura utiliza um array de listas (ArrayList[]) e implementa uma função hash simples para distribuir as palavras.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+✨ Funcionalidades:
+Geração de 100 palavras aleatórias.
 
-## Folder Structure
+Armazenamento das palavras em uma tabela hash com 26 categorias.
 
-The workspace contains two folders by default, where:
+Consulta de palavras na tabela.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Impressão da distribuição das palavras.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+🔧 Tecnologias usadas:
+Java
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Estruturas de dados (ArrayList)
 
-## Dependency Management
+Lógica de hashing
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+📂 Estrutura:
+App.java: lógica principal, preenchimento e busca na tabela hash.
+
+GeradorPalavras.java: gera palavras aleatórias para testes.
