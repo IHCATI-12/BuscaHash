@@ -43,7 +43,7 @@ public class App {
         // consulta
         System.out.println("------Consulta------");
         boolean resultado = buscarPalavra(palavra, tabelaHash, totalCategorias);
-        System.out.println(resultado);
+        System.out.println("Resultado de busca: " + resultado);
 
     }
 
